@@ -1,0 +1,10 @@
+<template name="mainLayout">
+  <header>
+    {{> navBar}}
+  </header>
+  <main>
+    <div class="container-fluid">
+      {{>Template.dynamic template=content}}
+    </div>
+  </main>
+</template>
