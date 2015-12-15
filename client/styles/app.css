@@ -1,0 +1,41 @@
+.voting-arrows {
+  float: left;
+  clear: left;
+  margin-right: 15px;
+  margin-top: 8px;
+}
+
+.voting-arrows a {
+  text-decoration: none;
+}
+
+.voting-arrows a:hover {
+  text-decoration: none;
+}
+
+.voting-arrows i {
+  display: block;
+  float: none;
+  clear: both;
+}
+
+.voting-arrows .up-arrow {
+  margin-bottom: 4px;
+}
+
+.voting-arrows .down-arrow {
+  margin-top: 4px;
+}
+
+.post-url-link .link-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.post-item h4 {
+  margin-top: 4px;
+}
+
+.post-item .badge {
+  margin-top: 10px;
+}
