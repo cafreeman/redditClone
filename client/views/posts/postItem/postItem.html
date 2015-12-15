@@ -1,0 +1,15 @@
+<template name="postItem">
+  <a href="{{pathForPost}}" class="list-group-item post-item">
+    <div class="voting-arrows">
+      <a href="#" class="upvote"><i class="fa fa-arrow-circle-o-up fa-lg up-arrow"></i></a>
+      <a href="#" class="downvote"><i class="fa fa-arrow-circle-o-down fa-lg down-arrow"></i></a>
+    </div>
+    <span class="badge">{{votes}}</span>
+    <div class="post-url-link">
+      <a href="{{url}}">
+        <span class="list-group-item-heading link-text">{{description}} <small>({{url}})</small></span>
+      </a>
+    </div>
+    Created: {{formatDate createdAt}}
+  </a>
+</template>

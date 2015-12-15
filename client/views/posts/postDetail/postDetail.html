@@ -1,0 +1,15 @@
+<template name="postDetail">
+  {{#if Template.subscriptionsReady}}
+    {{#with post}}
+      <div class="jumbotron">
+        <h2>URL:</h2>
+        <a href="{{url}}"><h3>{{url}}</h3></a>
+        <h2>Description:</h2>
+        <p>
+          {{description}}
+        </p>
+      </div>
+    {{/with}}
+    {{> commentsList}}
+  {{/if}}
+</template>
